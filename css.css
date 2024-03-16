@@ -1,0 +1,725 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    src: url();
+}
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    z-index: 10;
+}
+
+.navbar a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.judul {
+    text-align: center;
+    margin: 40px;
+    font-size: 32px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.tentara {
+    width: 289px;
+    height: 347px;
+    background-color: #D5FFDD;
+    border-radius: 20px;
+}
+
+.deskripsi-tentara {
+    position: relative;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.btn-tentara {
+    width: 212px;
+    height: 45px;
+    top: 345px;
+    background: #399349;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -160px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.petani {
+    width: 289px;
+    height: 221px;
+    background-color: #FFF4DC;
+    border-radius: 20px;
+}
+
+.btn-petani {
+    width: 212px;
+    height: 45px;
+    top: 538px;
+    background: #E29A00;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -50px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.pramugari {
+    width: 289px;
+    height: 221px;
+    background-color: #FFCED7;
+    border-radius: 20px;
+}
+
+.btn-pramugari {
+    width: 212px;
+    height: 45px;
+    top: 538px;
+    background: #FF5573;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -50px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.fotografer {
+    width: 289px;
+    height: 347px;
+    background-color: #E2F2FF;
+    border-radius: 20px;
+}
+
+.btn-fotografer {
+    width: 212px;
+    height: 45px;
+    top: 538px;
+    background: #3279AF;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -180px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.deskripsi-fotografer {
+    text-align: center;
+}
+
+.flex-column .box {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+
+.dokter {
+    width: 289px;
+    height: 221px;
+    background: #E9E8E2;
+    border-radius: 20px;
+}
+
+.btn-dokter {
+    width: 212px;
+    height: 45px;
+    top: 538px;
+    background: #CAC8B3;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -140px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.deskripsi-dokter {
+    margin-top: 20px;
+}
+
+.pilot {
+    width: 289px;
+    height: 221px;
+    background: #E9E8E2;
+    border-radius: 20px;
+}
+
+.btn-pilot {
+    width: 212px;
+    height: 45px;
+    top: 538px;
+    background: #CAC8B3;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -140px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.deskripsi-pilot {
+    margin-top: 20px;
+}
+
+.ilmuwan {
+    width: 289px;
+    height: 221px;
+    background: #E9E8E2;
+    border-radius: 20px;
+}
+
+.btn-ilmuwan {
+    width: 212px;
+    height: 45px;
+    top: 538px;
+    background: #CAC8B3;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -140px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.deskripsi-ilmuwan {
+    margin-top: 20px;
+}
+
+.tentara .gambar {
+    position: relative;
+    top: -30px;
+    left: 30px;
+    width: 230px;
+    height: 230px;
+}
+
+.petani .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+
+}
+
+.pramugari .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+}
+
+.fotografer .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+}
+
+.dokter .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+}
+
+.pilot .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+}
+
+.ilmuwan .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+}
+
+.pembalap {
+    width: 289px;
+    height: 221px;
+    background: #FFDBC5;
+    border-radius: 20px;
+}
+
+.pembalap .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+}
+
+.btn-pembalap {
+    width: 212px;
+    height: 45px;
+    background: #E36415;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -170px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.deskripsi-pembalap {
+    margin-top: 50px;
+}
+
+.astronout {
+    width: 289px;
+    height: 221px;
+    background: #8FC5ED;
+    border-radius: 20px;
+}
+
+.astronout .gambar {
+    position: relative;
+    top: 10px;
+    left: 40px;
+    width: 213px;
+    height: 208px;
+}
+
+.btn-astronout {
+    width: 212px;
+    height: 45px;
+    background: #275E87;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    position: relative;
+    top: -130px;
+    left: 40px;
+    font-size: 20px;
+}
+.astronout h4{
+    display: none;
+}
+
+.deskripsi-astronout {
+    margin-top: 50px;
+}
+
+@media(min-width:1280px) {
+    .tentara .flex-row {
+        gap: 0px;
+    }
+
+    .box5 .flex-row {
+        gap: 0px;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        src: url();
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 0px;
+    }
+
+    .navbar a {
+        margin-right: 20px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .judul {
+        text-align: center;
+        margin: 40px;
+        font-size: 40px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 27px;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+    }
+
+
+    .flex-row {
+        display: flex;
+        flex-direction: row;
+        gap: 27px;
+    }
+
+    .tentara {
+        width: 490px;
+        height: 180px;
+        background-color: #D5FFDD;
+        border-radius: 20px;
+    }
+
+    .deskripsi-tentara {
+        position: relative;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .btn-tentara {
+        width: 240px;
+        height: 37px;
+        top: 315px;
+        background: #399349;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        position: relative;
+        top: 0px;
+        left: 0px;
+        font-size: 20px;
+    }
+
+    .petani {
+        width: 235px;
+        height: 180px;
+        background-color: #FFF4DC;
+        border-radius: 20px;
+    }
+
+    .btn-petani {
+        width: 147px;
+        height: 37px;
+        top: 538px;
+        background: #E29A00;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        position: relative;
+        top: -40px;
+        left: 40px;
+        font-size: 20px;
+    }
+
+    .pramugari {
+        width: 235px;
+        height: 180px;
+        background-color: #FFCED7;
+        border-radius: 20px;
+    }
+
+    .btn-pramugari {
+        width: 147px;
+        height: 37px;
+        top: 538px;
+        background: #FF5573;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        position: relative;
+        top: -40px;
+        left: 40px;
+        font-size: 20px;
+    }
+
+    .fotografer {
+        width: 230px;
+        height: 392px;
+        background-color: #E2F2FF;
+        border-radius: 20px;
+    }
+
+    .btn-fotografer {
+        width: 147px;
+        height: 37px;
+        top: 538px;
+        background: #3279AF;
+        border-radius: 15px;
+        color: white;
+        border: none;
+        position: relative;
+        top: -10px;
+        left: 40px;
+        font-size: 20px;
+    }
+
+    .deskripsi-fotografer {
+        text-align: center;
+    }
+
+    .box {
+        width: 503px;
+        height: 392px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+
+    .flex-column .box {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box5 {
+        width: 500px;
+        height: 181px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+    }
+
+    .dokter {
+        width: 423px;
+        height: 96px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .btn-dokter {
+        width: 149px;
+        height: 22px;
+        top: 95px;
+        background: #D8D6C1;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        position: relative;
+        top: -10px;
+        left: 0px;
+        font-size: 12px;
+    }
+
+    .deskripsi-dokter {
+        margin-top: 20px;
+    }
+
+    .pilot {
+        width: 423px;
+        height: 96px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .btn-pilot {
+        width: 149px;
+        height: 22px;
+        top: 95px;
+        background: #D8D6C1;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        position: relative;
+        top: -10px;
+        left: 0px;
+        font-size: 12px;
+    }
+
+    .deskripsi-pilot {
+        margin-top: 20px;
+    }
+
+    .ilmuwan {
+        width: 423px;
+        height: 96px;
+        background-color: #FFFFFF;
+        border-radius: 20px;
+    }
+
+    .btn-ilmuwan {
+        width: 149px;
+        height: 22px;
+        top: 95px;
+        background: #D8D6C1;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        position: relative;
+        top: -10px;
+        left: 0px;
+        font-size: 12px;
+    }
+
+    .deskripsi-ilmuwan {
+        margin-top: 20px;
+    }
+
+    .tentara .gambar {
+        position: relative;
+        top: -50px;
+        width: 230px;
+        height: 230px;
+    }
+
+    .petani .gambar {
+        position: relative;
+        top: 10px;
+        left: 30px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .pramugari .gambar {
+        position: relative;
+        top: 10px;
+        left: 30px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .fotografer .gambar {
+        position: relative;
+        top: 10px;
+        left: 30px;
+        width: 170px;
+        height: 170px;
+    }
+
+    .dokter .gambar {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .pilot .gambar {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .ilmuwan .gambar {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .pembalap {
+        width: 289px;
+        height: 221px;
+        background: #F2F2F2;
+        border-radius: 20px;
+    }
+
+    .pembalap .gambar {
+        position: relative;
+        top: 30px;
+        left: 10px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .btn-pembalap {
+        width: 100px;
+        height: 55px;
+        top: 95px;
+        background: #D8D6C1;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        position: relative;
+        top: -10px;
+        left: 0px;
+        font-size: 15px;
+    }
+
+    .deskripsi-pembalap {
+        margin-top: 50px;
+    }
+
+    
+    .astronout .gambar {
+        position: relative;
+        top: 30px;
+        left: 10px;
+        width: 120px;
+        height: 120px;
+    }
+
+    .astronout {
+        width: 289px;
+        height: 221px;
+        background: #F2F2F2;
+        border-radius: 20px;
+    }
+
+    .btn-astronout {
+        width: 100px;
+        height: 55px;
+        top: 0px;
+        background: #D8D6C1;
+        border-radius: 10px;
+        color: white;
+        border: none;
+        position: relative;
+        left: 0px;
+        font-size: 15px;
+    }
+
+    .astronout h4{
+        display: block;
+    }
+
+    .deskripsi-astronout {
+        margin-top: 50px;
+    }
+}
